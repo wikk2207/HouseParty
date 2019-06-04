@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="partyNameHint">Nazwa imprezy</string>
+    <string name="partyAddressHint">Miejsce imprezy</string>
+    <string name="nextButtonText">Dalej</string>
+    <string name="backButtonText">Powrót</string>
+    <string name="createButtonText">Utwórz</string>
+    <string name="desciptionHint">Opis imprezy</string>
+    <string name="questionsText">Pytania do gości</string>
+    <string name="startText">Początek</string>
+    <string name="endText">Koniec</string>
+    <string name="dateHint">DD-MM-RRRR</string>
+    <string name="timeHint">GG:MM</string>
+    <string name="dateText">Data</string>
+    <string name="timeText">Godzina</string>
+    <string name="dialogTitleText">Czy wszystkie dane się zgadzają?</string>
+    <string name="confirmButton">Tak, utwórz</string>
+    <string name="cancelButton">Nie, anuluj</string>
+</resources>

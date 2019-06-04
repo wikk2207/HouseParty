@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/BackgroundLinearLayout"
+        tools:context=".registration.RegistrationActivity"
+>
+    <EditText style="@style/EditTextStyle"
+                android:hint="@string/firstnameHint"
+              android:id="@+id/firstNameEditText"
+    />
+
+    <EditText style="@style/EditTextStyle"
+                android:hint="@string/lastnameHint"
+                android:id="@+id/lastNameEditText"/>
+
+    <EditText style="@style/EditTextStyle"
+                android:hint="@string/emailHint"
+              android:inputType="textEmailAddress"
+                android:id="@+id/emailEditText"/>
+
+    <EditText style="@style/EditTextStyle"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword"
+                android:id="@+id/passwordEditText"/>
+
+    <EditText style="@style/EditTextStyle"
+                android:hint="@string/repeatPasswordHint"
+              android:id="@+id/repeatPasswordEditText"
+              android:inputType="textPassword"/>
+
+
+    <Button style="@style/BigButtonStyle"
+            android:text="@string/registationButtonText"
+            android:onClick="register"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colorTransparentPrimary">
+        <TextView
+                android:text="@string/accountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"/>
+        <TextView
+                android:text="@string/loginText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:onClick="goToLoginActivity"
+        />
+    </LinearLayout>
+
+</LinearLayout>

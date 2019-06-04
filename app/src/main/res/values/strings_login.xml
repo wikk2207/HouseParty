@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appTitle">Domówka</string>
+    <string name="emaiText">Adres e-mail</string>
+    <string name="passwordText">Hasło</string>
+    <string name="loginButton">Zaloguj</string>
+    <string name="noAccountText">Nie masz jeszcze konta?</string>
+    <string name="registerText">Zarejestruj się!</string>
+    <string name="incorrectPassword">Wprowadzono nieprawidłowy e-mail lub hasło.</string>
+</resources>

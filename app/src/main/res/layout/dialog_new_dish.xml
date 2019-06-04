@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:padding="20dp">
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <EditText
+                style="@style/EditTextStyle"
+                android:hint="@string/dishName"
+                android:id="@+id/newDishNameEditText"
+                />
+        <EditText
+                style="@style/EditTextStyle"
+                android:hint="@string/dishProducts"
+                android:inputType="textMultiLine"
+                android:layout_height="100dp"
+                android:id="@+id/newDishProductsEditText"
+                android:gravity="top|left"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/receiptCancelButton"
+                android:id="@+id/cancelDishButton"/>
+        <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/receiptConfirmButton"
+                android:id="@+id/confirmDishButton"/>
+    </LinearLayout>
+
+</LinearLayout>

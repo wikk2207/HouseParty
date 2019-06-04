@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/BackgroundLinearLayout">
+
+    <TextView
+            android:text="Summary FRAGMENT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="36sp"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activities.summary.guest.SummaryFragmentGuest" android:id="@+id/frameLayout">
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".activities.summary.guest.SummaryFragmentGuest">
+            <LinearLayout
+                    style="@style/BackgroundLinearLayout"
+                    tools:context=".activities.summary.guest.SummaryFragmentGuest"
+                    tools:ignore="MissingConstraints">
+
+                <EditText
+                        style="@style/EditTextTitle"
+                        android:hint="@string/title"
+                        android:id="@+id/title"
+                        android:gravity="center"/>
+
+                <EditText
+                        style="@style/EditTextStyle"
+                        android:hint="@string/date"
+                        android:id="@+id/date"/>
+
+                <EditText
+                        style="@style/EditTextStyle"
+                        android:hint="@string/place"
+                        android:id="@+id/place"/>
+
+                <EditText
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="start|top"
+                        android:ems="10"
+                        style="@style/EditTextAreaStyle"
+                        android:id="@+id/description"
+                        android:hint="@string/description"/>
+
+                <TextView
+                        style="@style/TextViewSmall"
+                        android:hint="@string/questsQuantity"
+                        android:id="@+id/guests"/>
+
+                <TextView
+                        style="@style/TextViewSmall"
+                        android:hint="@string/totalCost"
+                        android:id="@+id/finances"/>
+
+                <Button
+                        style="@style/BigButtonStyle"
+                        android:text="@string/saveChanges"
+                        android:id="@+id/saveSummary"/>
+
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+
+    </FrameLayout>
+</RelativeLayout>

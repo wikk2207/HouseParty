@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorTransparent"
+              android:padding="10dp"
+>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:gravity="center">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <TextView
+                    android:text="@string/partyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/distNameTextView"
+                    android:textSize="23dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginBottom="10dp"/>
+
+            <TextView
+                    android:text="@string/partyStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dishProductTextView"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

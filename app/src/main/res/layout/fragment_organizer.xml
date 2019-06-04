@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                style="@style/BackgroundLinearLayout">
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:srcCompat="@drawable/summary"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/overviwButton"
+                    android:backgroundTint="#00E21313"
+                    />
+
+            <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:srcCompat="@drawable/guests"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/guestButton"
+                    android:backgroundTint="#00E21313"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:srcCompat="@drawable/dishes"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/foodButton"
+                    android:backgroundTint="#00E21313"/>
+
+            <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:srcCompat="@drawable/shopping"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/shopButton"
+                    android:backgroundTint="#00E21313"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:srcCompat="@drawable/arrival"
+                    android:id="@+id/carButton"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00E21313"/>
+
+            <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:srcCompat="@drawable/finances"
+                    android:id="@+id/cashButton"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00E21313"/>
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,160 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BigButtonStyle">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="SmallButtonStyle">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="EditTextAreaStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="EditTextTitle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="BackgroundLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="BackgroundNewPartyFragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <style name="TextViewSmall">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TextViewVerySmall">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TextViewTitle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TextViewTextArea">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CheckboxStyle">
+        <item name="android:background">@color/colortransparentWhite</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="DateTimeContainerStyle">
+        <item name="android:background">@color/textViewBackground</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="SubTitleTextStyle">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="FinancesTextStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="dialogTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="dialogValuesTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>-->
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>-->
+
+</resources>

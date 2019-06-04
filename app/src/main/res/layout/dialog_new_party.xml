@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogTitleText"
+            android:layout_margin="10dp"
+            android:textSize="23dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    style="@style/dialogTextStyle"
+                    android:text="@string/partyNameHint"/>
+            <TextView
+                    style="@style/dialogValuesTextStyle"
+                    android:text="Jakaś impreza"
+                    android:id="@+id/partyNameDialogTextView"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    style="@style/dialogTextStyle"
+                    android:text="@string/partyAddressHint"/>
+            <TextView
+                    style="@style/dialogValuesTextStyle"
+                    android:text="u mnie w domku"
+                    android:id="@+id/placeDialogTextView"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    style="@style/dialogTextStyle"
+                    android:text="@string/startText"/>
+            <TextView
+                    style="@style/dialogValuesTextStyle"
+                    android:text="12-12-12 12:12"
+                    android:id="@+id/startDialogTextView"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    style="@style/dialogTextStyle"
+                    android:text="@string/endText"/>
+            <TextView
+                    style="@style/dialogValuesTextStyle"
+                    android:text="12-12-12 12:12"
+                    android:id="@+id/endDialogTextView"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    style="@style/dialogTextStyle"
+                android:text="@string/questionsText"/>
+
+            <TextView
+                    android:text="spanko\ndojazd\nalko"
+                    style="@style/dialogValuesTextStyle"
+                    android:id="@+id/questionsDialogTextView"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    style="@style/dialogTextStyle"
+                    android:text="@string/desciptionHint"/>
+
+            <TextView
+                    android:text="spanko\ndojazd\nalko"
+                    style="@style/dialogValuesTextStyle"
+                    android:id="@+id/descriptionDialogTextView"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/cancelButton"
+                android:id="@+id/cancelButton"/>
+        <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/confirmButton"
+                android:id="@+id/confirmButton"/>
+    </LinearLayout>
+
+</LinearLayout>

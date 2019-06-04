@@ -1,0 +1,13 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Witaj</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_home">Imprezy</string>
+    <string name="menu_gallery">Znajomi</string>
+    <string name="menu_slideshow">Powiadomienia</string>
+    <string name="menu_tools">Mój profil</string>
+    <string name="menu_share">Wyloguj</string>
+</resources>

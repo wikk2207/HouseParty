@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Nazwa</string>
+    <string name="date">Data imprezy</string>
+    <string name="place">Miejsce imprezy</string>
+    <string name="description">Opis imprezy</string>
+    <string name="guests">Lista gości</string>
+    <string name="finances">Finanse</string>
+    <string name="backButton">Powrót</string>
+    <string name="editButton">Edytuj</string>
+    <string name="questsList">Lista Gości</string>
+    <string name="username">Użytkownik</string>
+    <string name="questions">Pytania</string>
+    <string name="questsQuantity">Ilość gości</string>
+    <string name="totalCost">Całkowity koszt</string>
+</resources>

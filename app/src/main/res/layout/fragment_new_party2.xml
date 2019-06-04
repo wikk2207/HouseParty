@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             style="@style/BackgroundLinearLayout"
+             tools:context=".activities.new_party.NewParty2Fragment"
+>
+    <CheckBox
+            android:text="CheckBox"
+            style="@style/CheckboxStyle"
+            android:id="@+id/checkBox"/>
+
+    <CheckBox
+            android:text="CheckBox"
+            style="@style/CheckboxStyle"
+            android:id="@+id/checkBox2"/>
+
+    <CheckBox
+            android:text="CheckBox"
+            style="@style/CheckboxStyle"
+            android:id="@+id/checkBox3"/>
+
+    <CheckBox
+            android:text="CheckBox"
+            style="@style/CheckboxStyle"
+            android:id="@+id/checkBox4"/>
+
+    <CheckBox
+            android:text="CheckBox"
+            style="@style/CheckboxStyle"
+            android:id="@+id/checkBox5"/>
+
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@color/colortransparentWhite"
+            android:hint="@string/desciptionHint"
+            android:inputType="textMultiLine"
+            android:lines="9"
+            android:maxLines="9"
+            android:gravity="top|left"
+            android:padding="5dp"
+            android:id="@+id/descriptionEditText"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <Button
+                android:text="@string/backButtonText"
+                style="@style/SmallButtonStyle"
+                android:id="@+id/backToPart1Button"/>
+
+        <Button
+                android:text="@string/createButtonText"
+                style="@style/SmallButtonStyle"
+                android:id="@+id/createButton"/>/>
+    </LinearLayout>
+
+</LinearLayout>

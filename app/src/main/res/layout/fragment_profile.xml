@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/BackgroundLinearLayout">
+
+    <TextView
+            android:text="PROFILE  FRAGMENT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="36sp"/>
+    <FrameLayout
+            android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 tools:context=".activities.profile.ProfileActivity" android:id="@+id/frameLayout">
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".activities.profile.ProfileActivity">
+            <LinearLayout
+                    style="@style/BackgroundLinearLayout"
+                    tools:context=".activities.profile.ProfileActivity"
+                    tools:ignore="MissingConstraints">
+
+                <EditText
+                        style="@style/EditTextStyle"
+                        android:hint="@string/myFirstname"
+                        android:id="@+id/firstName"
+                        />
+
+                <EditText
+                        style="@style/EditTextStyle"
+                        android:hint="@string/myLastname"
+                        android:id="@+id/lastName"/>
+
+
+                <EditText
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="start|top"
+                        android:ems="10"
+                        style="@style/EditTextAreaStyle"
+                        android:id="@+id/allergies"
+                        android:hint="@string/myAllergies"/>
+
+                <TextView
+                        android:text="@string/alcoholPreferences"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/alcohol_preferences_text"
+                        style="@style/TextViewVerySmall"/>
+
+                <EditText
+                        android:text="TextView"
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/alcoholPreferences"
+                        style="@style/TextViewTextArea"/>
+
+                <TextView
+                        android:text="@string/foodPreferences"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/food_preferences_text"
+                        style="@style/TextViewVerySmall"/>
+
+                <EditText
+                        android:text="TextView"
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/foodPreferences"
+                        style="@style/TextViewTextArea"/>
+
+                <Button
+                        style="@style/BigButtonStyle"
+                        android:text="@string/saveChanges"
+                        android:id="@+id/saveProfileChanges"/>
+
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+
+    </FrameLayout>
+</RelativeLayout>

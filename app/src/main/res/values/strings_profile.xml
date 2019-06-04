@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="myFirstname">Imię</string>
+    <string name="myLastname">Nazwisko</string>
+    <string name="myEmail">Adres e-mail</string>
+    <string name="myAllergies">Alergie</string>
+    <string name="saveChanges">Zapisz zmiany</string>
+    <string name="successTitle">Udało się zaktualizować dane</string>
+    <string name="successMessage">Czy chcesz powrócić do wcześniejszego ekranu?</string>
+    <string name="failureTitle">Nie udało się zaktualizować danych</string>
+    <string name="failureMessage">Spróbuj ponownie później</string>
+    <string name="getFailureTitle">Nie udało się pobrać danych</string>
+    <string name="getFailureMessage">Spróbuj ponownie później</string>
+    <string name="foodPreferences">Najchętniej je: </string>
+    <string name="alcoholPreferences">Najchętniej pije: </string>
+</resources>

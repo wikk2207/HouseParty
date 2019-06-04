@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firstnameHint">Imię</string>
+    <string name="lastnameHint">Nazwisko</string>
+    <string name="emailHint">Adres e-mail</string>
+    <string name="passwordHint">Hasło</string>
+    <string name="repeatPasswordHint">Powtórz hasło</string>
+    <string name="registationButtonText">Zarejestruj</string>
+    <string name="accountText">Masz już konto?</string>
+    <string name="loginText">Zaloguj się!</string>
+    <string name="emptyFields">Pola nie mogą być puste.</string>
+    <string name="differentPasswords">Hasła różnią się.</string>
+    <string name="invalidData">Za krótkie hasło (co najmniej 6 znaków) lub nieprawidłowy email.</string>
+    <string name="invalidEmail">Taki adres email już istnieje.</string>
+    <string name="noInternetConnection">Brak połączenia z serwerem.</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             style="@style/BackgroundLinearLayout"
+             tools:context=".activities.new_party.NewParty1Fragment">
+
+    <EditText style="@style/EditTextStyle"
+                android:hint="@string/partyNameHint"
+            android:id="@+id/nameEditText"/>
+    <EditText style="@style/EditTextStyle"
+                android:hint="@string/partyAddressHint"
+            android:id="@+id/addressEditText"/>
+
+    <TextView
+            android:text="@string/startText"
+             style="@style/SubTitleTextStyle"
+            />
+
+    <LinearLayout style="@style/DateTimeContainerStyle">
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/dateText"
+                android:textColor="@color/colorPrimaryDark"
+                />
+        <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/dateHint"
+                android:layout_margin="5dp"
+                android:id="@+id/startDateEditText"/>
+
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/calendar"
+                android:background="@color/colorTransparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:id="@+id/startCalendarButton"
+                />
+    </LinearLayout>
+
+    <LinearLayout style="@style/DateTimeContainerStyle">
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="@string/timeText"/>
+        <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/timeHint"
+                android:layout_margin="5dp"
+                android:id="@+id/startTimeEditText"/>
+
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/clock"
+                android:background="@color/colorTransparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:id="@+id/startClockButton"
+                />
+    </LinearLayout>
+
+    <TextView
+            android:text="@string/endText"
+            style="@style/SubTitleTextStyle"
+            />
+
+    <LinearLayout style="@style/DateTimeContainerStyle">
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/dateText"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+        <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/dateHint"
+                android:layout_margin="5dp"
+                android:id="@+id/endDateEditText"/>
+
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/calendar"
+                android:background="@color/colorTransparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:id="@+id/endCalendarButton"
+                />
+    </LinearLayout>
+
+    <LinearLayout style="@style/DateTimeContainerStyle">
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="@string/timeText"/>
+        <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/timeHint"
+                android:layout_margin="5dp"
+                android:id="@+id/endTimeEditText"/>
+
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/clock"
+                android:background="@color/colorTransparent"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                android:id="@+id/endClockButton"
+                />
+    </LinearLayout>
+
+
+
+
+    <Button style="@style/SmallButtonStyle"
+            android:text="@string/nextButtonText"
+            android:id="@+id/goToPart2Button"/>
+
+</LinearLayout>

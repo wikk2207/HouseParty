@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/BackgroundLinearLayout">
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparentPrimary"
+            android:layout_margin="20dp">
+        <TableRow android:gravity="center">
+            <TextView android:text="@string/alcoholText"
+                      style="@style/FinancesTextStyle"/>
+
+            <TextView
+                    android:text="0 zł"
+                    style="@style/FinancesTextStyle"
+                    android:textAlignment="textEnd"
+                    android:id="@+id/alcoholCostTextView"/>
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView android:text="@string/meatText"
+                      style="@style/FinancesTextStyle"/>
+
+            <TextView
+                    android:text="0 zł"
+                    style="@style/FinancesTextStyle"
+                    android:textAlignment="textEnd"
+                    android:id="@+id/meatCostTextView"/>
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView android:text="@string/othersText"
+                      style="@style/FinancesTextStyle"/>
+
+            <TextView
+                    android:text="0 zł"
+                    style="@style/FinancesTextStyle"
+                    android:textAlignment="textEnd"
+                    android:id="@+id/othersCostTextView"/>
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:id="@+id/receiptsListView"
+            android:layout_weight="9"
+            >
+
+    </ListView>
+
+    <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/plus"
+            android:scaleType="fitCenter"
+            android:background="@color/colorTransparent"
+            android:layout_weight="0"
+            android:layout_margin="10dp"
+            android:id="@+id/newReceiptButton"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="othersText">Pozostałe</string>
+    <string name="meatText">Suma za mięso</string>
+    <string name="alcoholText">Suma za alkohol</string>
+    <string name="exampleCost">50 zł</string>
+    <string name="receiptName">Nazwa paragonu</string>
+    <string name="receiptCancelButton">Anuluj</string>
+    <string name="receiptConfirmButton">Dodaj</string>
+</resources>

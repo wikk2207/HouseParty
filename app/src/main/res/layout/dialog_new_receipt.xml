@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:padding="20dp">
+
+
+ <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+     <EditText
+             style="@style/EditTextStyle"
+             android:hint="@string/receiptName"
+             android:id="@+id/newReceiptNameEditText"
+             />
+     <EditText
+             style="@style/EditTextStyle"
+             android:hint="@string/meatText"
+             android:id="@+id/newReceiptmeatCostEditText"
+             />
+     <EditText
+             style="@style/EditTextStyle"
+             android:id="@+id/newReceiptAlcoholEditText"
+             android:hint="@string/alcoholText"
+             />
+     <EditText
+             style="@style/EditTextStyle"
+             android:id="@+id/newReceiptOthersEditText"
+             android:hint="@string/othersText"
+             />
+ </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/receiptCancelButton"
+                android:id="@+id/cancelConfirmButton"/>
+        <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/receiptConfirmButton"
+                android:id="@+id/confirmReceiptButton"/>
+    </LinearLayout>
+
+</LinearLayout>
